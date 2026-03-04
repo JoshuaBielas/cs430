@@ -4,7 +4,7 @@
 
 1. Looking at the attention matrix for layer 1, head 1, which token receives the most attention from the word "it"? Does this match your linguistic intuition about what "it" should refer to in the sentence? Why or why not?
 
-    The word that receives the most attention from the word "it" is the word "is". This does not match our linguistic intuition because "it" should refer to a noun.
+    The word that receives the most attention from the word "it" is the word "is". This does not match our linguistic intuition because "it" should refer to a noun. Intuitive relationships don't always appear how they should in every layer of every head.
 
 
 2. The [CLS] token often accumulates disproportionately high attention. What role does [CLS] play in BERT's architecture, and why might many tokens attend strongly to it even though it carries no dictionary meaning?
